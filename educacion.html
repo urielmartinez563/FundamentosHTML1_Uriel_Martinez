@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device, user-scalable=no">
+		<title>Currículum Vitae</title>
+	</head>
+	<body>
+		<header name="cabezera_de_pagina">
+			<svg width="230" height="200" >
+				<!--Letra "U"-->
+				<g >
+					<line stroke="black" stroke-width="20" x1="10" y1="0" x2="10" y2="100" />
+					<line stroke="black" stroke-width="20" x1="10" y1="90" x2="70" y2="90" />
+					<line stroke="black" stroke-width="20" x1="70" y1="30" x2="70" y2="100" />
+				</g>
+				<!--Letra "M"-->
+				<g>
+					<line stroke="green" stroke-width="5" x1="39" y1="30" x2="77" y2="100" />
+					<line stroke="black" stroke-width="5" x1="40" y1="30" x2="40" y2="150" />
+					<line stroke="green" stroke-width="5" x1="121" y1="30" x2="77" y2="100" />				
+					<line stroke="black" stroke-width="5" x1="120" y1="30" x2="120" y2="150" />
+					<circle stroke="white" stroke-width="5" cx="78" cy="99" r="10" />
+				</g>
+				<!--Letra "G"-->
+				<g>
+					<circle stroke="brown" stroke-width="5" cx="150" cy="100" r="50" />
+					<circle stroke="white" stroke-width="2" fill="white" cx="150" cy="100" r="40" />
+					<line stroke="white" stroke-width="20" x1="230" y1="100" x2="150" y2="100" />
+					<line stroke="brown" stroke-width="5" x1="230" y1="100" x2="150" y2="100" />
+					<line stroke="brown" stroke-width="5" x1="150" y1="97" x2="150" y2="200" />
+				</g>
+			</svg>
+			<!--Titulo de la pagina-->
+			<h1>Currículum Vitae...</h1>
+				<h2>Uriel Martinez Garcia</h2>
+				<h3><em>7 de Abril del 2018 </br> Benemerito de las Americas, Chiapas</em></h3>
+			
+		</header>
+		<!--Menú de navegación-->
+		<nav name="menu_de_navegacion">
+			<a href="index.html">Inicio</a><label> || </label>
+			<a href="educacion.html">Educación</a><label> ||</label>
+			<a href="experiencia.html">Experiencia</a>
+		</nav>
+		<!--Información Personal-->
+		<section name="info_personal">
+			<article name="tabla_educacion">
+				<h2>Educación</h2>
+				<table border="1", cellpadding="10", cellspacing="0">
+					<thead>
+						<tr>
+							<th>Año</th>
+							<th>Institución</th>
+							<th>Lugar</th>
+							<th>¿Culminó?</th>
+						</tr>						
+					</thead>
+					<tbody>
+						<tr>
+							<td>2000</td>
+							<td>Cocoes</td>
+							<td>Chiapas</td>
+							<td>Si</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+			</article>
+			<article name="agregar_estudio">
+				<h2>Agregar Estudios</h2>
+				<!--Formulario-->
+				<form>
+					<label>Año</label>
+					<select>
+						<option>1998</option>
+						<option>1999</option>
+						<option>2000</option>
+						<option>2001</option>
+						<option>2002</option>
+						<option>2003</option>
+						<option>2004</option>
+						<option>2005</option>
+						<option>2006</option>
+						<option>2007</option>
+						<option>2008</option>
+						<option>2009</option>
+						<option>2010</option>
+						<option>2011</option>
+						<option>2012</option>
+						<option>2013</option>
+						<option>2014</option>
+						<option>2015</option>
+						<option>2016</option>
+						<option>2017</option>
+						<option>2018</option>
+						<option>2019</option>						
+					</select><br>
+					<p>
+						<label>Institución:</label>
+						<input type="text" name="institución" placeholder="Nombre de la institución" required="on">
+					</p>
+					<label>Lugar:</label>
+					<textarea name="comentarios" rows="2" cols="50" required=""></textarea>
+					<p>
+						<label>¿Culmino?</label>
+						<input type="radio" name="si"><label>Si</label>
+						<input type="radio" name="no"><label>No</label>
+					</p>
+					<input type="submit" name="Enviar">
+				</form>
+			</article>
+			<br>
+		</section>		
+	</body>
+	<!--Informacion de pie de pagina-->
+	<footer name="info_contacto">
+		<nav>
+			<a href="mailto: urielmartinez563@gmail.com">Correo Electronico</a><label> || </label>
+			<a href="tel: 9381330147">Telefono</a><label> || </label>
+			<a href="">Redes Sociales</a>
+		</nav>
+	</footer>
+</html>
